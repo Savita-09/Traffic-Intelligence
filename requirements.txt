@@ -6,5 +6,6 @@ matplotlib
 scikit-learn
 geopandas
 folium
-streamlit 
+streamlit
 streamlit-folium
+xgboost
