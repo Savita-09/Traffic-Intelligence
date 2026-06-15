@@ -108,7 +108,7 @@ TRAFFIC_EMOJI = {"high": "🔴", "medium": "🟡", "low": "🟢"}
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\savita\Downloads\indian_roads_dataset.csv")
+    df = pd.read_csv(r"indian_roads_dataset.csv")
     df["date"]          = pd.to_datetime(df["date"], errors="coerce")
     df["month"]         = df["date"].dt.month
     df["month_name"]    = df["date"].dt.strftime("%b")
