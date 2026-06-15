@@ -192,7 +192,7 @@ def train_models(df: pd.DataFrame):
             n_iter=20,
             cv=5,
             scoring="accuracy",
-            n_jobs=-1,
+            n_jobs=1,
             random_state=42,
         )
 
